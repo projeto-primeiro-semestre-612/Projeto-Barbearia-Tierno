@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agendamento</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/pages/agenda/agenda.css">
+</head>
+</head>
+
+<body>
+
+    <!--NAVBAR-->
+    <ul id="nav">
+        <div class="navbar">
+            <li><a href="./index.html">HOME</a></li>
+            <li><a href="#sobre">SOBRE</a></li>
+            <li><a href="#contatos">CONTATOS</a></li>
+            <li style="float:right"><a class="active"
+                    href="https://api.whatsapp.com/send?phone=5511946373600&fbclid=PAZXh0bgNhZW0CMTEAAaccTkwCV2S2X_FT1wQ7MoUg3sKl7vfV3MXxkTIfaQStJwy_Ntd3RIDZU2_sHg_aem_1MKshuH39xMfdoqtLpYscA"
+                    rel="stylesheet" target="_blank"">Agendar</a></li>
+        </div>
+    </ul>
+    <!--ALINHAMENTO-->
+   <div id="alinhamento">
+    <!-- CALENDÁRIO -->
+    <section id="calendario">
+        <iframe src="https://calendar.google.com/calendar/embed?src=agendamentotierno%40gmail.com&ctz=America%2FSao_Paulo" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+    </section>
+
+    <!-- TABELA DE SERVIÇOS -->
+    <section id="precos">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Serviço</th>
+                        <th>Preço</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>Corte</td><td>R$ 40</td></tr>
+                    <tr><td>Corte e Barba</td><td>R$ 70</td></tr>
+                    <tr><td>Corte e Sobrancelha</td><td>R$ 45</td></tr>
+                    <tr><td>Corte, Barba e Sobrancelha</td><td>R$ 50</td></tr>
+                    <tr><td>Barba</td><td>R$ 40</td></tr>
+                    <tr><td>Barba e Pezinho</td><td>R$ 50</td></tr>
+                    <tr><td>Barba e Sobrancelha</td><td>R$ 45</td></tr>
+                    <tr><td>Pezinho</td><td>R$ 20</td></tr>
+                    <tr><td>Luzes</td><td>R$ 40</td></tr>
+                    <tr><td>Platinado</td><td>R$ 120</td></tr>
+                </tbody>
+            </table>
+
+    <!-- BOTÃO DE AGENDAMENTO -->
+    <section id="agendamento">
+        <!-- Google Calendar Appointment Scheduling begin -->
+<link href="https://calendar.google.com/calendar/scheduling-button-script.css" rel="stylesheet">
+<script src="https://calendar.google.com/calendar/scheduling-button-script.js" async></script>
+<script>
+(function() {
+  var target = document.currentScript;
+  window.addEventListener('load', function() {
+    calendar.schedulingButton.load({
+      url: 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ1yMmDFPfPHdQARKK1CSbo0CW4dnRNk5Y1ilhmkW5LbhoH-TrEhbYESBUvEr6h7wkiwxzyXMruj?gv=true',
+      color: '#3897f0',
+      label: 'Agendar um compromisso',
+      target,
+    });
+  });
+})();
+</script>
+<!-- end Google Calendar Appointment Scheduling -->
+    </section>
+</div>
+</section>
+
+        <!--FOOTER-->
+        <footer>
+            <div class="container-footer">
+                <div class="row-footer">
+                    <div class="footer-col">
+                        <img id="logo" src="./images/global/logo tierno.jpg"></img>
+                    </div>
+                    <div class="footer-col">
+                        <h4> Contatos </h4>
+
+                        <div id="contatos" class="medias-socias">
+                            <a id="facebook" href="https://www.facebook.com/BarbeariaTierno" rel="stylesheet"
+                                target="_blank"><i class="fa fa-facebook"></i></a>
+                            <a id="instagram" href="https://www.instagram.com/barbeariatiernooficial/" rel="stylesheet"
+                                target="_blank"><i class="fa fa-instagram"></i></a>
+                            <a id="whatsapp"
+                                href="https://api.whatsapp.com/send?phone=5511946373600&fbclid=PAZXh0bgNhZW0CMTEAAaccTkwCV2S2X_FT1wQ7MoUg3sKl7vfV3MXxkTIfaQStJwy_Ntd3RIDZU2_sHg_aem_1MKshuH39xMfdoqtLpYscA"
+                                rel="stylesheet" target="_blank"><i class="fa fa-whatsapp"></i></a>
+                        </div>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Tierno</h4>
+                        <ul>
+                            <li><a href="/assets/index.html">Quem sou eu?</a></li>
+                            <li><a href="#">Nossos serviços</a></li>
+                            <li><a href="./agenda.html" rel="stylesheet" target="_blank"">Agende aqui</a></li>
+                            <li><a href=" https://maps.app.goo.gl/GkRgsjjQegwBFEATA" rel="stylesheet" target="_blank">Endereço</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Horários</h4>
+                        <ul>
+                            <P>
+                                Seg: 08h a 00h
+                                <br>
+                                Ter: 08h a 00h
+                                <br>
+                                Qua: 08h a 00h
+                                <br>
+                                Qui: 08h a 00h
+                                <br>
+                                Sex: 08h a 00h
+                                <br>
+                                Sab: 08h a 00h
+                                <br>
+                                Dom: 08h a 00h
+                            </P>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+</body>
+
+</html>

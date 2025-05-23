@@ -1,0 +1,28 @@
+.repertorio {
+    background-color: #000;
+    border: 1px solid #3897f0;
+}
+
+.repertorio_um {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#img1 {
+    width: 375px;
+    height: 375px;
+    padding: 16px;
+}
+
+#img2 {
+    width: 375px;
+    height: 375px;
+    padding: 16px;
+}
+
+#img3 {
+    width: 375px;
+    height: 375px;
+    padding: 16px;
+}

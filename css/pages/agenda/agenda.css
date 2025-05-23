@@ -1,0 +1,64 @@
+@import url(./partials/footer.css);
+@import url(./partials/navbar.css);
+@import url(./partials/calendario.css);
+@import url(./partials/tabela.css);
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #000;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    text-align: center;
+}
+
+h1 {
+    color: #3897f0;
+    padding: 40px 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h4 {
+    color: #3897f0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#alinhamento {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar li {
+    margin: 10px 0;
+  }
+
+  .repertorio_um {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .repertorio_um li {
+    width: 80%;
+    margin-bottom: 10px;
+  }
+
+  iframe {
+    width: 100% !important;
+  }
+}

@@ -1,0 +1,37 @@
+#nav {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #0b0b0b;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    opacity: 0.9;
+}
+
+#nav {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    transition: background-color 0.3s ease;
+}
+
+li {
+    list-style-type: none;
+}
+
+li a {
+    display: fixed;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: left;
+}
+
+li a:hover {
+    background-color: #000;
+}
+
+.active {
+    background-color: #3897f0;
+}

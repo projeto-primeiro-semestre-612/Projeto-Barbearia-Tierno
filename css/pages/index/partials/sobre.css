@@ -1,0 +1,14 @@
+#sobre {
+    background-color: #000;
+    border: 1px solid #3897f0;
+}
+
+.texto {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    padding: 5px;
+}
+
