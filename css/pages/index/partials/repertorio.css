@@ -10,19 +10,25 @@
 }
 
 #img1 {
-    width: 375px;
-    height: 375px;
+    width: 100%;
+    max-width: 375px;
+    height: auto;
     padding: 16px;
+    box-sizing: border-box;
 }
 
 #img2 {
-    width: 375px;
-    height: 375px;
+    width: 100%;
+    max-width: 375px;
+    height: auto;
     padding: 16px;
+    box-sizing: border-box;
 }
 
 #img3 {
-    width: 375px;
-    height: 375px;
+    width: 100%;
+    max-width: 375px;
+    height: auto;
     padding: 16px;
+    box-sizing: border-box;
 }

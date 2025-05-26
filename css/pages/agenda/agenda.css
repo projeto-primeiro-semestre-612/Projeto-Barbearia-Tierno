@@ -2,6 +2,7 @@
 @import url(./partials/navbar.css);
 @import url(./partials/calendario.css);
 @import url(./partials/tabela.css);
+@import url(./partials/home.css);
 
 body {
     background-color: #000;
