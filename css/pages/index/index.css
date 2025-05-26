@@ -5,6 +5,14 @@
 @import url(./partials/mapa.css);
 @import url(./partials/footer.css);
 
+body {
+    background-color: #000;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    text-align: center;
+}
+
 h1 {
     text-align: center;
     color: #3897f0;
@@ -33,7 +41,7 @@ h4 {
   }
 
   .repertorio_um li {
-    width: 95%;
+    width: 80%;
     margin-bottom: 10px;
   }
 
@@ -62,4 +70,3 @@ h4 {
   width: 100% !important;
   min-width: 326px;
 }
-
