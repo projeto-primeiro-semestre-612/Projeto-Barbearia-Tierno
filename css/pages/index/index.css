@@ -45,19 +45,19 @@ h4 {
     margin-bottom: 10px;
   }
 
-  @media (max-width: 600px) {
+  @media (max-width: 60px) {
     #img1 {
         padding: 8px;
     }
 }
 
-  @media (max-width: 600px) {
+  @media (max-width: 60px) {
     #img2 {
         padding: 8px;
     }
 }
 
-  @media (max-width: 600px) {
+  @media (max-width: 60px) {
     #img3 {
         padding: 8px;
     }
