@@ -1,0 +1,262 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    min-height: 100%;
+    background: var(--tierno-page);
+    color: var(--tierno-ink);
+}
+h1 {
+    font-family: var(--tierno-font);
+}
+h4 {
+    font-family: var(--tierno-font);
+}
+a {
+    font-family: var(--tierno-font);
+}
+
+/* NAVBAR */
+.topnav {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    min-height: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    background-color: var(--tierno-nav);
+    box-shadow: 0 2px 4px rgba(3, 167, 167, 0.473);
+}
+
+/* Listas da navbar */
+.topnav ul {
+    display: flex;
+    align-items: stretch;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Menu esquerdo e menu direito */
+.topnav .nav-left {
+    justify-content: flex-start;
+}
+
+.topnav .nav-right {
+    justify-content: flex-end;
+    margin-left: auto;
+}
+
+/* Links */
+.topnav li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.topnav li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 14px 16px;
+    color: var(--tierno-white);
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
+    float: none;
+    background-color: var(--tierno-nav);
+}
+
+.topnav li a:hover,
+.topnav li a.active {
+    background-color: var(--tierno-blue);
+    color: var(--tierno-white);
+}
+
+
+.active {
+    background-color: var(--tierno-blue);
+}
+
+.inicio {
+    display: table;
+    width: 100%;
+    height: 100%;
+    padding: 1px 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
+                url('/assets/images/global/Tierno2.png') no-repeat center center;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.titulo {
+    text-align: center;
+    color: var(--tierno-blue);
+    padding: 5px;
+}
+.sobre {
+    border: 1px solid var(--tierno-blue);
+    background: var(--tierno-nav);
+    color: var(--tierno-white);
+}
+
+.texto {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    color: var(--tierno-white);
+    padding: 5px;
+    
+}
+.repertorio {
+    border: 1px solid var(--tierno-border);
+    border-radius: 14px;
+    background: var(--tierno-white);
+    color: var(--tierno-ink);
+    box-shadow: 0 5px 20px rgba(15, 23, 42, .07);
+}
+.imagens {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#img1 {
+    width: 100%;
+    max-width: 375px;
+    height: auto;
+    padding: 16px;
+    box-sizing: border-box;
+}
+
+#img2 {
+    width: 100%;
+    max-width: 375px;
+    height: auto;
+    padding: 16px;
+    box-sizing: border-box;
+}
+
+#img3 {
+    width: 100%;
+    max-width: 375px;
+    height: auto;
+    padding: 16px;
+    box-sizing: border-box;
+}
+.mapa-container {
+    background: var(--tierno-white);
+    border: 0;
+    width: 100%;
+    padding: 40px 20px;
+    box-sizing: border-box;
+    text-align: center;
+    border: 1px solid var(--tierno-blue);
+}
+.mapa-container .titulo {
+    margin-bottom: 25px;
+    text-align: center;
+}
+.mapa-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.mapa {
+    display: block;
+    width: 100%;
+    max-width: 600px;
+    height: 450px;
+    border: 0;
+    border-radius: 10px;
+}
+footer {
+    width: 100%;
+    margin: 0;
+    padding: 35px 0 0;
+    background-color: var(--tierno-nav);
+    color: var(--tierno-white);
+}
+.footer {
+    width: 100%;
+    max-width: none;
+    margin: 0;
+    padding: 0 30px 30px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 20px;
+}
+.titulo_footer{
+    margin: 0 0 20px;
+    text-align: center;
+    font-size: 18px;
+    color: var(--tierno-blue);
+}
+.midias-sociais,
+.links,
+.horario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    min-width: 200px;
+}
+.midias-sociais a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    color: var(--tierno-white);
+    font-size: 22px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.midias-sociais a:hover {
+    color: var(--tierno-blue);
+    transform: scale(1.1);
+}
+.links ul,
+.horario ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+.links li,
+.horario li {
+    margin-bottom: 12px;
+}
+.links a {
+    color: var(--tierno-white);
+    text-decoration: none;
+    transition: 0.3s;
+}
+.links a:hover {
+    color: var(--tierno-blue);
+}
+@media (max-width: 768px) {
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        padding: 0 15px 25px;
+    }
+
+    .midias-sociais,
+    .links,
+    .horario {
+        width: 100%;
+        text-align: center;
+    }
+}

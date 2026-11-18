@@ -1,0 +1,33 @@
+.repertorio {
+    border: 1px solid var(--tierno-blue);
+}
+
+.repertorio_um {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#img1 {
+    width: 100%;
+    max-width: 375px;
+    height: auto;
+    padding: 16px;
+    box-sizing: border-box;
+}
+
+#img2 {
+    width: 100%;
+    max-width: 375px;
+    height: auto;
+    padding: 16px;
+    box-sizing: border-box;
+}
+
+#img3 {
+    width: 100%;
+    max-width: 375px;
+    height: auto;
+    padding: 16px;
+    box-sizing: border-box;
+}
